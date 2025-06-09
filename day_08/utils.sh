@@ -38,7 +38,7 @@ show_help() {
     echo "./util.sh help"
 }
 
-# Main script logic
+# Main script log   
 if [ $# -lt 1 ]; then
     show_help
     exit 1
